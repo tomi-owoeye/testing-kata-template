@@ -7,4 +7,11 @@ function sum(a, b) {
     return a + b;
 }
 
-export { sum };
+
+
+function sumArray(numbers) {
+    console.log("array is",numbers)
+    return "placeholder"
+}
+
+export { sum,sumArray };
